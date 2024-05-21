@@ -52,9 +52,9 @@
 
             <div class="d-flex flex-wrap justify-content-center mt-5">
                 
-              <a href="{{route ('activities.edit', ['activity'=>$activity] )}}" class="btn btn-warning mb-3 "><i class="bi bi-pencil-square"></i></a>
+              <a href="{{route ('activities.edit', ['activity'=>$activity] )}}" class="btn btn-warning mb-3 me-2 "><i class="bi bi-pencil-square"></i></a>
             
-              <a href="{{route ('activities.show', ['activity'=>$activity] )}}" class="btn btn-primary mb-3 mx-2">Dettails</a>
+              {{-- <a href="{{route ('activities.show', ['activity'=>$activity] )}}" class="btn btn-primary mb-3 mx-2">Dettails</a> --}}
             
             <form action="{{route ('activities.destroy', ['activity'=>$activity])}}" method="POST">
               @method('DELETE')
@@ -69,9 +69,8 @@
             @endif
             @endauth
 
-            @guest
             <a href="{{route ('activities.show', ['activity'=>$activity] )}}" class="btn btn-primary mb-3 mx-2">Dettails</a>
-            @endguest
+         
                
              
 

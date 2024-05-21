@@ -29,7 +29,8 @@
        <p class="card-text"><small class="text-muted">Organizzatore: {{$activity["productor"] }}</small></p>
 
        @auth
-
+       @if (Auth::user()->id === $activity->user_id)
+       
        <form action="{{route ('activities.destroy', ['activity'=>$activity])}}" method="POST">
         @method('DELETE')
         @csrf
@@ -37,8 +38,9 @@
         <button class="btn btn-danger"><i class="bi bi-trash text-black"></i></button>
       
       </form>
-         
-       @endauth
+      
+      @endif
+      @endauth
 
      
        </div>
