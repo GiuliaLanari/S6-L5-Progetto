@@ -27,7 +27,7 @@
                 <label for="img">Image</label>
                 <input type="text" class="form-control" id="img" placeholder="Indirizzo dell'immagine" name="img"></input>
             </div>
-            <button type="submit" class="btn btn-secondary mt-3">Aggiungi Attività</button>
+            <button type="submit" class="btn btn-secondary mt-3">Add Ativity</button>
         </form>
     </div>
 </div>

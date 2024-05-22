@@ -33,7 +33,7 @@
                 <input type="text" class="form-control" id="img" placeholder="Indirizzo dell'immagine" name="img" value="{{ $activity->img }}">
             </div>
         
-            <button type="submit" class="btn btn-primary mt-3">Update Activity</button>
+            <button type="submit" class="btn btn-secondary mt-3">Update Activity</button>
         </form>
         
 

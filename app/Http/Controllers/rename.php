@@ -8,7 +8,7 @@ class ActivityController extends Controller
 {
     public function elenco(){
       
-        // Esempio di dati delle attività
+        
         $activities = [
             ["id" => 1, "title" => "Attività 1", "price" => "10 $", "productor" => "Artuu", "img" => "https://images.pexels.com/photos/1472887/pexels-photo-1472887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"],
             ["id" => 2, "title" => "Attività 2", "price" => "120 $", "productor" => "Jhon", "img" => "https://images.pexels.com/photos/547116/pexels-photo-547116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"],

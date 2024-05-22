@@ -15,12 +15,7 @@
         <li class="nav-item">
           <a class="nav-link active" href="{{route('activities.create')}}"><i class="bi bi-plus-circle-dotted size-s"></i></i></a>
         </li>
-      {{-- @auth
-      <li  class="nav-item">
-        <a class="nav-link" href="{{route('dashboard')}}"> Dashboard</i></i></a>
-      </li>
-      @endauth --}}
-       
+    
         
         
       <form class="d-flex" role="search">
@@ -31,7 +26,7 @@
 
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         @auth
-            {{-- se utente loggato --}}
+        
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
@@ -48,7 +43,7 @@
                 </ul>
             </li>
         @else
-            {{-- altrimenti, se l'utente non è loggato --}}
+           
             <li class="nav-item">
                 <a href="{{ route('login') }}" class="nav-link">
                     Login

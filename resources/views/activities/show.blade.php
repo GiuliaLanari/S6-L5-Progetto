@@ -15,12 +15,15 @@
 
   <div class="col-md-5">
     @session('update_successer')
-
-    <div class="alert alert-success" role="alert">
-      The {{session('update_successer')->title}} has been successfully modified!
+    
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong> The {{session('update_successer')->title}} has been successfully modified!</strong> 
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
-  
+
     @endsession
+
+    
       <div class="card">
        <img src="{{$activity["img"]}}" class="card-img-top" alt="activity">
        <div class="card-body">

@@ -16,22 +16,18 @@
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
   
-  {{-- <div class="alert alert-success" role="alert">
-    The activity was successfully created!
-  </div> --}}
-
   @endsession
 
   @session('delete_successer')
 
-  <div class="alert alert-success" role="alert">
-    The {{session('delete_successer')->title}} has been deleted successfully!
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong> The {{session('delete_successer')->title}} has been deleted successfully!</strong> 
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
-
+  
   @endsession
 
 
-{{-- Ciclo sulle attività e visualizzazione delle card --}}
 
     @forelse ($activities as $activity) 
         <div class="col-12 col-md-3 mb-3 ">
@@ -53,8 +49,6 @@
             <div class="d-flex flex-wrap justify-content-center mt-5">
                 
               <a href="{{route ('activities.edit', ['activity'=>$activity] )}}" class="btn btn-warning mb-3 me-2 "><i class="bi bi-pencil-square"></i></a>
-            
-              {{-- <a href="{{route ('activities.show', ['activity'=>$activity] )}}" class="btn btn-primary mb-3 mx-2">Dettails</a> --}}
             
             <form action="{{route ('activities.destroy', ['activity'=>$activity])}}" method="POST">
               @method('DELETE')
