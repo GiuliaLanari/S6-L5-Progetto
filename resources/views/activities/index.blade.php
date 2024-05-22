@@ -63,7 +63,7 @@
             @endif
             @endauth
 
-            <a href="{{route ('activities.show', ['activity'=>$activity] )}}" class="btn btn-primary mb-3 mx-2">Dettails</a>
+            <a href="{{route ('activities.show', ['activity'=>$activity] )}}" class="btn btn-primary mb-3 mx-2">Details</a>
          
                
              
