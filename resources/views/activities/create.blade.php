@@ -1,6 +1,6 @@
 @extends("template.base")
 
-@section("title", "Nuova Attività" )
+@section("title", "New activity" )
 
 
  

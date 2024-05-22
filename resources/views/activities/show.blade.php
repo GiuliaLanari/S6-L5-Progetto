@@ -1,7 +1,7 @@
 
   @extends("template.base")
 
-@section("title", "Dettaglio" )
+@section("title", "Dettails" )
 
 
   

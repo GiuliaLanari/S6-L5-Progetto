@@ -1,3 +1,12 @@
+
+@extends("template.base")
+
+@section("title", "Register" )
+
+
+ 
+@section('content')
+
 <x-guest-layout>
     <form method="POST" action="{{ route('password.store') }}">
         @csrf
@@ -37,3 +46,5 @@
         </div>
     </form>
 </x-guest-layout>
+
+@endsection

@@ -1,7 +1,7 @@
 
 @extends("template.base")
 
-@section("title", "Modifica Attività" )
+@section("title", "Edit activity" )
 
 
  

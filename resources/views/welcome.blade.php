@@ -1,18 +1,18 @@
 @extends("template.base")
 
-@section("title", "welcome" )
+@section("title", "Welcome" )
 
 
   
 @section("content")
-<h1 class="my-5 text-center">Welcome to our website!</h1>
+<h1 class="my-5 text-center">Welcome to Adventuries!</h1>
 <div class="row justify-content-center">
   <div class="col-10 mx-0 mb-5">
 
      <div class="card bg-welcome">
        <div class="card-body">
         <h5 class="card-title">Who we are?</h5>
-        <p class="card-text">Welcome to Activity, the reference point for those who love adventure and nature! We are a team of outdoor enthusiasts and explorers dedicated to creating unique and memorable experiences. For years we have been organizing activities and excursions for all those who wish to discover the hidden treasures of our beautiful land.</p>
+        <p class="card-text">Welcome to Adventuries, the reference point for those who love adventure and nature! We are a team of outdoor enthusiasts and explorers dedicated to creating unique and memorable experiences. For years we have been organizing activities and excursions for all those who wish to discover the hidden treasures of our beautiful land.</p>
 
         <h5 class="card-title">Our mission</h5>
         <p class="card-text">Our mission is to bring people closer to nature, offering a wide range of outdoor activities ranging from hiking in the mountains to kayaking adventures, cultural walks to cycling. We believe that exploration and contact with the natural environment are fundamental to physical and mental well-being.</p>

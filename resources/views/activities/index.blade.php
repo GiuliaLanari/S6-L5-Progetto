@@ -1,6 +1,6 @@
 @extends("template.base")
 
-@section("title", "Elenco" )
+@section("title", "List" )
 
 
  
