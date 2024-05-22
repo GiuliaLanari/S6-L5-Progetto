@@ -6,7 +6,7 @@
  
 @section('content')
 
-<h1 class="my-5 text-center">List of activities</h1>
+<h1 class="my-5 text-center display-5 text-info-emphasis">List of activities</h1>
 <div class="row justify-content-center mx-5">
 
   @session('create_successer')

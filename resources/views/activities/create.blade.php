@@ -7,7 +7,7 @@
 @section('content')
 <div class="row justify-content-center">
     <div class="col-md-6">
-        <h2 class="mb-5 text-center">Add Activity</h2>
+        <h2 class="mb-5 text-center display-5 text-info-emphasis">Add Activity</h2>
 
         <form method="POST" action="{{route ('activities.store')}}">
             @csrf

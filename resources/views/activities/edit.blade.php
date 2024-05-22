@@ -9,7 +9,7 @@
 
 <div class="row justify-content-center">
     <div class="col-md-6">
-        <h2 class="mt-5 mb-4">Edit Activity</h2>
+        <h2 class="mt-5 mb-4 display-5 text-info-emphasis text-center ">Edit Activity</h2>
 
 
         <form method="POST" action="{{ route('activities.update', ['activity' => $activity->id]) }}">

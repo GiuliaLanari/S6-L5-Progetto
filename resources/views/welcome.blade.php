@@ -5,7 +5,7 @@
 
   
 @section("content")
-<h1 class="my-5 text-center">Welcome to Adventuries!</h1>
+<h1 class="my-5 text-center display-5 text-info-emphasis">Welcome to Adventuries!</h1>
 <div class="row justify-content-center">
   <div class="col-10 mx-0 mb-5">
 
