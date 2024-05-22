@@ -17,7 +17,7 @@
     <body class="font-sans text-gray-900 antialiased">
        
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
-            <h1 class="display-5 text-info-emphasis">Adventuries</h1>
+            <h1 class="display-5 text-info-emphasis">Adventures</h1>
             {{-- <div>
                 <a href="/">
                     <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
